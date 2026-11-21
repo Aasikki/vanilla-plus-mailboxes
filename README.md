@@ -32,6 +32,17 @@ cd "Fabric mod"
 
 The jar appears in `Fabric mod/build/libs/`.
 
+## Releases
+
+Publishing a GitHub release builds the jar automatically (`.github/workflows/release.yml`) and attaches it to the release. The release name sets the version and must look like:
+
+- `v1.0.0 (Minecraft 26.3)`
+- `v1.0.0-beta4 (Minecraft 26.3)`
+
+The Minecraft version in the name must match `minecraft_version` in `Fabric mod/gradle.properties`, or the build fails. The attached jar is named `VanillaPlusMailboxes-fabric-mc26.3-<version>.jar`.
+
+To test the build without publishing a release, run the "Build release jar" workflow manually from the Actions tab and enter a release name. The jar is then available as a workflow artifact.
+
 ## Repository layout
 
 - `Fabric mod/`: the Fabric mod (Java source, resources, Gradle build).
