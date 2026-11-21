@@ -2,6 +2,8 @@
 
 A Fabric mod for Minecraft 26.3 that adds a wooden mailbox block. It sits on top of fences and walls, works like a small chest, and opens with an animated door and flag.
 
+All code in this repo is ai generated. 3D-models, UV-maps, animations and sound effects were all handcrafted by a human.
+
 ## Features
 
 - Placed on fences and walls. Breaks when the support is removed, and drops its contents.
