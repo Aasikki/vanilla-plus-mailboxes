@@ -6,19 +6,8 @@ plugins {
 version = project.version
 group = project.group
 
-// Run with -PdebugBuild to include src/debug (chest UI toggle command) and produce a "-debug" jar.
-def debugBuild = project.hasProperty('debugBuild')
-
 base {
-	archivesName = project.archives_base_name + (debugBuild ? '-debug' : '')
-}
-
-sourceSets {
-	main {
-		if (debugBuild) {
-			java.srcDir 'src/debug/java'
-		}
-	}
+	archivesName = project.archives_base_name
 }
 
 repositories {

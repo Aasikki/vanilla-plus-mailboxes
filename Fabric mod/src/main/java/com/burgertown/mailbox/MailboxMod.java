@@ -155,16 +155,6 @@ public class MailboxMod implements ModInitializer {
 			}
 			return InteractionResult.PASS;
 		});
-
-		registerDebugTools();
-	}
-
-	// Only present in the -debug build (-PdebugBuild), so the release jar never references it.
-	private static void registerDebugTools() {
-		try {
-			Class.forName("com.burgertown.mailbox.debug.MailboxDebug").getMethod("register").invoke(null);
-		} catch (ReflectiveOperationException ignored) {
-		}
 	}
 
 	private static Block variantBlock(String wood, String metal) {
