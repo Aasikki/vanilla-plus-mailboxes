@@ -1,0 +1,18 @@
+# Build output and local tooling
+Fabric mod/build/
+Fabric mod/.gradle/
+Fabric mod/.idea/
+*.iml
+*.class
+
+# Local backups (git history replaces these)
+backups/
+
+# Mojang/vanilla assets must not be redistributed
+Minecraft assets/
+VALMIIT/
+**/vanilla sounds/
+
+# Editor and OS junk
+Thumbs.db
+desktop.ini

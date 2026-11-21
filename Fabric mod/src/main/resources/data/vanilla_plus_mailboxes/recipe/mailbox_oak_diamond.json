@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "vanilla_plus_mailboxes",
+	"pattern": [
+		" O ",
+		"O=O",
+		"OOO"
+	],
+	"key": {
+		"=": "minecraft:diamond",
+		"O": "minecraft:oak_planks"
+	},
+	"result": {
+		"id": "vanilla_plus_mailboxes:mailbox_oak_diamond",
+		"count": 1
+	}
+}

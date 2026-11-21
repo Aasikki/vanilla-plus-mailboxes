@@ -1,0 +1,12 @@
+{
+	"mailbox.open": {
+		"sounds": [
+			"vanilla_plus_mailboxes:mailbox_open"
+		]
+	},
+	"mailbox.close": {
+		"sounds": [
+			"vanilla_plus_mailboxes:mailbox_close"
+		]
+	}
+}

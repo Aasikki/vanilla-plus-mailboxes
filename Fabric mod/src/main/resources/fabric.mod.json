@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "vanilla_plus_mailboxes",
+	"version": "1.0.0",
+	"name": "Vanilla+ Mailboxes",
+	"description": "Wooden mailbox block that sits on fences and walls and works like a small chest.",
+	"authors": [],
+	"license": "LGPL-3.0-or-later",
+	"environment": "*",
+	"accessWidener": "vanilla_plus_mailboxes.accesswidener",
+	"mixins": [
+		"vanilla_plus_mailboxes.mixins.json"
+	],
+	"entrypoints": {
+		"main": [
+			"com.burgertown.mailbox.MailboxMod"
+		],
+		"client": [
+			"com.burgertown.mailbox.MailboxClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

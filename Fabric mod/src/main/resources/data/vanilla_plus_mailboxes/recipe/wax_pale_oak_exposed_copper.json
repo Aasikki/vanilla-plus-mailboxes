@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "vanilla_plus_mailboxes_waxed",
+	"ingredients": [
+		"vanilla_plus_mailboxes:mailbox_pale_oak_exposed_copper",
+		"minecraft:honeycomb"
+	],
+	"result": {
+		"id": "vanilla_plus_mailboxes:mailbox_pale_oak_waxed_exposed_copper",
+		"count": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "vanilla_plus_mailboxes",
+	"pattern": [
+		" O ",
+		"O=O",
+		"OOO"
+	],
+	"key": {
+		"=": "minecraft:diamond",
+		"O": "minecraft:cherry_planks"
+	},
+	"result": {
+		"id": "vanilla_plus_mailboxes:mailbox_cherry_diamond",
+		"count": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "vanilla_plus_mailboxes",
+	"pattern": [
+		" O ",
+		"O=O",
+		"OOO"
+	],
+	"key": {
+		"=": "minecraft:gold_ingot",
+		"O": "minecraft:dark_oak_planks"
+	},
+	"result": {
+		"id": "vanilla_plus_mailboxes:mailbox_dark_oak_gold",
+		"count": 1
+	}
+}

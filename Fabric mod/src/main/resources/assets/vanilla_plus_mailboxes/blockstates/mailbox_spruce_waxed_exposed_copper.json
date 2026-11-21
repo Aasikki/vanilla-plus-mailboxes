@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "vanilla_plus_mailboxes:block/mailbox_body_spruce" },
+		"facing=east": { "model": "vanilla_plus_mailboxes:block/mailbox_body_spruce", "y": 90 },
+		"facing=south": { "model": "vanilla_plus_mailboxes:block/mailbox_body_spruce", "y": 180 },
+		"facing=west": { "model": "vanilla_plus_mailboxes:block/mailbox_body_spruce", "y": 270 }
+	}
+}

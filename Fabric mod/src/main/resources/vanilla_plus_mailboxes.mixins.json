@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.burgertown.mailbox.mixin",
+	"minVersion": "0.8",
+	"mixins": [
+		"BlockBehaviourMixin",
+		"RedstoneWireBlockMixin"
+	],
+	"client": [
+		"ConnectionMixin"
+	],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
